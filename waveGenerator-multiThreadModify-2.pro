@@ -1,5 +1,4 @@
-QT += core gui
-QT += serialport concurrent printsupport
+QT += core gui serialport concurrent printsupport
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
@@ -45,3 +44,5 @@ FORMS += \
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
+
+# Modification to synchronize the time stamp
